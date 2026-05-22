@@ -1,0 +1,10 @@
+/* Production Grade Architecture Theme and UI Core Constraints */
+:root { --bg-dark: #070a13; --panel-bg: #111625; --accent-blue: #2563eb; --neon-green: #10b981; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background-color: var(--bg-dark); color: #f3f4f6; font-family: 'Inter', system-ui, sans-serif; }
+.main-container { display: flex; flex-direction: column; min-height: 100vh; }
+.top-navigation { display: flex; justify-content: space-between; padding: 20px 40px; background: var(--panel-bg); border-bottom: 1px solid #1e293b; }
+.pulse-dot { width: 10px; height: 10px; background: var(--neon-green); border-radius: 50%; display: inline-block; box-shadow: 0 0 8px var(--neon-green); }
+.viewport-analytics { padding: 40px; }
+.data-card { background: var(--panel-bg); border-radius: 12px; padding: 30px; border: 1px solid #1e293b; }
+.terminal-stream { font-family: monospace; color: #9ca3af; background: #090d16; padding: 15px; border-radius: 6px; margin-top: 15px; }
